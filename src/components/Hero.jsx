@@ -13,7 +13,10 @@ const Hero = ({
           </h1>
           <p className="my-4 text-xl text-white">{subtitle}</p>
         </div>
-        <Button label="test" />
+        <Button
+          label="test"
+          isLoading={true}
+        />
       </div>
     </section>
   );
