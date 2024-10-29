@@ -7,7 +7,13 @@ import classNames from "classnames";
  * @returns Button
  */
 
-const Button = ({ label, variant, isDisabled, isLoading, onClick }) => {
+const Button = ({
+  label,
+  variant = "primary",
+  isDisabled,
+  isLoading,
+  onClick,
+}) => {
   const baseStyles =
     "px-4 py-2 font-semibold rounded transition-colors duration-300";
   const variantStyles = {
@@ -34,10 +40,4 @@ Button.propTypes = {
   variant: PropTypes.oneOf(["primary", "secondary", "danger"]),
   isDisabled: PropTypes.bool,
   isLoading: PropTypes.bool,
-};
-
-Button.defaultProps = {
-  variant: "primary",
-  isDisabled: false,
-  isLoading: false,
 };
