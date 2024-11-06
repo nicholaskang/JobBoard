@@ -1,4 +1,5 @@
 import Button from "./Button";
+import DisplayCard from "./DisplayCard";
 
 const Hero = ({
   title = "Become a React Dev",
@@ -13,10 +14,6 @@ const Hero = ({
           </h1>
           <p className="my-4 text-xl text-white">{subtitle}</p>
         </div>
-        <Button
-          label="test"
-          isLoading={true}
-        />
       </div>
     </section>
   );
