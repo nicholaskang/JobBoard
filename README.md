@@ -13,25 +13,25 @@ JobBoard is a web application designed to help React developers find and post jo
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
    git clone https://github.com/nicholaskang/JobBoard.git
 ```
 
-2. Navigate to the project directory:
+### 2. Navigate to the project directory:
 
 ```bash
    cd JobBoard
 ```
 
-3. Install dependencies:
+### 3. Install dependencies:
 
 ```bash
    npm install
 ```
 
-4. Start the development server:
+### 4. Start the development server:
 
 ```bash
    npm run dev
@@ -39,15 +39,9 @@ To run this project locally, follow these steps:
 
 The application will be accessible at http://localhost:3000.
 
-4. Start the development server:
+### 5. Start the local API for job data:
 
-   npm run dev
-
-   The application will be accessible at http://localhost:3000. Leave this server running to access the application locally.
-
-5. Start the local API for job data:
-
-   In a separate terminal window, run the following command:
+In a separate terminal window, run the following command:
 
 ```bash
    npm run server
@@ -61,16 +55,6 @@ This will start a JSON server to serve job data, accessible at http://localhost:
 - **Vite**: Next-generation frontend tooling for fast development.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **ESLint**: Tool for identifying and fixing linting issues in JavaScript code.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/YourFeature).
-3. Commit your changes (git commit -m 'Add YourFeature').
-4. Push to the branch (git push origin feature/YourFeature).
-5. Open a Pull Request.
 
 ## License
 
